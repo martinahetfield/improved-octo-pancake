@@ -10,7 +10,10 @@
       background-color: #000000;
       font-family: sans-serif;
       padding: 30px;
-      color: #ffffff; /* ispravljen kod za belu */
+      color: #ffffff;
+      margin: 0;
+      width: 100%; /* omogućava da tekst zauzme celu širinu */
+      text-align: center; /* centrira sav tekst */
     }
 
     img {
@@ -23,15 +26,16 @@
       margin-right: auto;
     }
 
-    h1 {
+    h1, h2 { /* Centriranje naslova */
       color: #ffffff;
-      text-align: center;
     }
 
     p {
       font-size: 18px;
-      text-align: center; 
-      max-width: 100%;
+      text-align: center; /* centriranje paragrafa */
+      width: 100%; /* tekst zauzima celu širinu */
+      margin: 0 auto;
+      padding: 10px;
     }
   </style>
 </head>
